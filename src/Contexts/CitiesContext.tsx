@@ -30,7 +30,8 @@ const CitiesContext = createContext<CitiesContextI>({
 	error: "",
 });
 
-const BASE_URL = "http://localhost:8000";
+// const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://world-wise-lyart.vercel.app/";
 
 const initialState = {
 	cities: [],
