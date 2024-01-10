@@ -31,7 +31,7 @@ const CitiesContext = createContext<CitiesContextI>({
 });
 
 // const BASE_URL = "http://localhost:8000";
-const BASE_URL = "https://world-wise-lyart.vercel.app:8000/";
+const BASE_URL = "https://citiesdb.onrender.com";
 
 const initialState = {
 	cities: [],
